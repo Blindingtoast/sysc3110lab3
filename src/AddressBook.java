@@ -16,6 +16,10 @@ public class AddressBook {
         this.buddies.remove(buddy);
     }
 
+    public int buddyCount() {
+        return this.buddies.size();
+    }
+
     public static void main(String[] args) {
         BuddyInfo buddy = new BuddyInfo("Tom", "Carleton", 613);
         AddressBook addressBook = new AddressBook();
